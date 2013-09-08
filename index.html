@@ -12,9 +12,10 @@
 		<h1>Hello, world!</h1>
 
 		<script>
-			var songs = [];
+
 			$.getJSON('bthsongs.json', function(data){
 				$.each(data, function (index, song) {
+					var songs = [];
 					songs.push('<p><h2>' + song.title + '</h2></p>');
 					songs.push('<p><h3>' + song.credits + '</h3></p>');
 					songs.push('<p><h4>' + song.melody + '</h4></p>');
