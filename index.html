@@ -12,11 +12,18 @@
 		<h1>Hello, world!</h1>
 
 		<script>
+			var songs = [];
 			$.getJSON('bthsongs.json', function(data){
 				$.each(data, function (index, value) {
-					$('#results').append('<p>'+value+'</p>');
-					console.log(value);
+					songs.push('<p><h2>'+value.title+'</h2></p>');
+					songs.push('<p><h3>'+value.credits+'</h3></p>');
+					songs.push('<p><h4>'+value.melody+'</h4></p>');
+					songs.push('<p>'+value.lyric+'</p>');
 				});
+				$('<ul/>', {
+					'class': 'my-new-list',
+					html: songs.join('')
+				}).appendTo('body');
 			});
 		</script>
 	</body>
