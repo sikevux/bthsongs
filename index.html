@@ -6,7 +6,11 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
 		<h1>Hello, world!</h1>
+
 		<script>
 			$.getJSON('bthsongs.json', function(data) {
 				var items = [];
@@ -19,7 +23,6 @@
 				}).appendTo('body');
 			});
 		</script>
-		<script src="http://code.jquery.com/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+
 	</body>
 </html>
