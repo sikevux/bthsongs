@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Patrik 'Sikevux' Greco">
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="css/nav.css" rel="stylesheet">
+		
 		<title>BTH songs</title>
 	</head>
 	<body>
@@ -33,7 +33,7 @@
 			$.getJSON('bthsongs.json', function(data){
 				$.each(data, function (index, song) {
 					var songs = [];
-					songs.push('<div class="col-lg-4">');
+					songs.push('<div class="span4">');
 					songs.push('<h2>' + song.title + '</h2>');
 					songs.push('<p>');
 					if(song.credits.length > 0) {
