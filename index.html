@@ -14,16 +14,18 @@
 		<script>
 			var songs = [];
 			$.getJSON('bthsongs.json', function(data){
-				$.each(data, function (index, value) {
-					songs.push('<p><h2>'+value.title+'</h2></p>');
-					songs.push('<p><h3>'+value.credits+'</h3></p>');
-					songs.push('<p><h4>'+value.melody+'</h4></p>');
-					songs.push('<p>'+value.lyric+'</p>');
-				});
+				$.each(data, function (index, song) {
+					songs.push('<p><h2>' + song.title + '</h2></p>');
+					songs.push('<p><h3>' + song.credits + '</h3></p>');
+					songs.push('<p><h4>' + song.melody + '</h4></p>');
+					songs.push('<p><pre>' + song.lyric + '</pre></p>');
 				$('<ul/>', {
-					'class': 'my-new-list',
+					'class': song.title,
 					html: songs.join('')
 				}).appendTo('body');
+
+				});
+
 			});
 		</script>
 	</body>
