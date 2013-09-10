@@ -30,7 +30,7 @@
 		"lyric": "Rekursion, rekursion,\ndet är bra att ha.\nMen utan basfall\nfastnar man\ni en oändlig loop av..."
 	},
 	{
-		"title": "Vad ska vi koda idag?"
+		"title": "Vad ska vi koda idag?",
 		"credits": "Jens Elofsson, Fredrik 'Glyph' Andersson, Fredrik 'Flommy' Karlsson, Daniel 'Perry' Perván",
 		"melody": "Var ska vi sova inatt",
 		"lyric": "--Vers 1.\nVi har en sida\nMed massa bra funktioner\nEn plats så full av\nunika kreationer\n\nDen ligger på Snejk\nvår egen del av molnet\nHanteras av SVN (sven)\noch syns på Internätet!\n\n\n--Vers 2.\nVi DWW-W\nTar hand om detta monster\nVi gör vad vi kan,\nutövar trollkarlskonster\n\nDet räcker inte\nProblemen bara spökar\nBuggarna frodas\nKomplexiteten ökar\n\n--Ref.\nVad ska vi koda idag?\nP Jag har en story på gång \nVad ska vi koda ikväll?\nP Det bör ju lösas med en tång\nOm du har ett unit test\nSå varför supa bort koden\noch förneka hemsidan en behövlig feature\n\nI varg ska vi koda inatt!\nP Där finns det ventilation!\nI falk ska vi koda imorrn\nP Helt utan kodkonvention\nOm du helt saknar basfall\nSå rekurserar vi mera \nfår stack overflow och blir med en sida till"
