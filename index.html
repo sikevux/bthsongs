@@ -36,12 +36,19 @@
 					songs.push('<div class="span4">');
 					songs.push('<h2>' + song.title + '</h2>');
 					songs.push('<p>');
+
 					if(song.credits.length > 0) {
 						songs.push('Låten är skriven av: <i>' + song.credits + '</i><br />');
+					} else {
+						songs.push('<br />');
 					}
+
 					if(song.melody.length > 0) {
 						songs.push('Melodin är: <i>' + song.melody + '</i><br />');
+					} else {
+						songs.push('<br />');
 					}
+
 					songs.push('</p>');
 					songs.push('<p><a class="btn btn-primary" href="javascript:void(0);" onClick="');
 					songs.push("$('." + index + "').toggle('slow');");
