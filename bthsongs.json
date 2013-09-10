@@ -22,5 +22,11 @@
 		"credits": "",
 		"melody":  "Helan går",
 		"lyric": "Helan går,\nsjung hopp faderallan lallan lej,\nHelan går,\nsjung hopp faderallan lej.\nOch den som inte helan tar,\nhan heller inte halvan får.\nHelan går,\nsjung hopp faderallan lej."
+	},
+	{
+		"title": "Rekursionsvisa",
+		"credits": "",
+		"melody": "Bjällerklang",
+		"lyric": "Rekursion, rekursion,\ndet är bra att ha.\nMen utan basfall\nfastnar man\ni en oändlig loop av..."
 	}
 ]
